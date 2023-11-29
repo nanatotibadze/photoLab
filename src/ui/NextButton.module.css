@@ -1,0 +1,25 @@
+.nextBtn {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: none;
+  gap: 1.6rem;
+}
+
+.nextP {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  word-break: keep-all;
+}
+
+.span {
+  color: white;
+}
+
+svg {
+  color: white;
+}

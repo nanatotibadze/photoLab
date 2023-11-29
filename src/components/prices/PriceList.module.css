@@ -1,0 +1,151 @@
+.priceContainer {
+  background-color: var(--color-white);
+  padding: 7rem 16.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  @media only screen and (max-width: 1000px) {
+    padding: 11rem 3rem;
+    justify-content: center;
+  }
+}
+
+.pro {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.pro span {
+  color: #000;
+  text-align: right;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem; /* 138.889% */
+}
+.plansContainer {
+  display: flex;
+  gap: 3rem;
+  @media only screen and (max-width: 1000px) {
+    flex-direction: column;
+    align-content: center;
+  }
+  @media only screen and (max-width: 600px) {
+  }
+}
+
+.planItem {
+  background: #f5f5f5;
+  width: 35rem;
+  height: min-content;
+  padding: 5.6rem 4rem;
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 8rem;
+  @media only screen and (max-width: 1000px) {
+    min-width: 70rem;
+    position: relative;
+    padding-right: 50%;
+  }
+  @media only screen and (max-width: 600px) {
+    min-width: 31rem;
+    padding: 4rem;
+    height: 40rem;
+    align-items: center;
+  }
+}
+
+.planPro {
+  background: var(--color-black);
+  width: 35rem;
+  height: min-content;
+  padding: 8.2rem 4rem;
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 4rem;
+  @media only screen and (max-width: 1000px) {
+    min-width: 70rem;
+    position: relative;
+    padding-right: 50%;
+  }
+  @media only screen and (max-width: 600px) {
+    min-width: 31rem;
+    padding: 4rem;
+    height: 40rem;
+    align-items: center;
+  }
+}
+.plansContainer h5 {
+  margin-bottom: 1.8rem;
+}
+.planPro h5 {
+  color: var(--color-white);
+}
+.planPro h2 {
+  color: var(--color-white);
+}
+.plansContainer p {
+  text-align: center;
+
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem;
+  opacity: 0.6; /* 166.667% */
+  margin-bottom: 4rem;
+  @media only screen and (max-width: 1000px) {
+    width: 27rem;
+  }
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 15rem;
+  }
+}
+.planItem p {
+  color: var(--color-black);
+}
+.planPro p {
+  color: var(--color-white);
+  opacity: 0.6;
+}
+
+.planItem button {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+.plansContainer button {
+  padding: 1.2rem 8rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.priceContainer svg {
+  cursor: pointer;
+}
+.inactive {
+  opacity: 0.5;
+}
+
+.price {
+  @media only screen and (max-width: 1000px) {
+    position: absolute;
+    right: 0;
+    top: 5rem;
+  }
+  @media only screen and (max-width: 600px) {
+    top: 20rem;
+    left: 0;
+  }
+}
+
+.price p {
+  @media only screen and (max-width: 600px) {
+    margin: 0 auto;
+  }
+}

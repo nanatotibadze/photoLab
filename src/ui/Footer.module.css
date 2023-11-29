@@ -1,0 +1,125 @@
+footer {
+  height: 25rem;
+  background-color: var(--color-black);
+  min-width: 100%;
+  padding: 6.4rem 10rem;
+  display: flex;
+  gap: 10rem;
+  position: relative;
+  @media only screen and (max-width: 1000px) {
+    padding: 6.4rem 3rem;
+    gap: 20rem;
+  }
+  @media only screen and (max-width: 719px) {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    padding: 5rem 4rem;
+    gap: 2rem;
+  }
+}
+
+footer svg {
+  width: 17rem;
+  height: 1.6rem;
+  flex-shrink: 0;
+}
+.icons {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 8.5rem;
+  @media only screen and (max-width: 719px) {
+    gap: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+}
+.icon {
+  color: white;
+  opacity: 0.2;
+  width: 2rem;
+  height: 2rem;
+}
+.icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.columnTwo {
+  display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: 1000px) {
+    /* flex: 1; */
+    position: absolute;
+    flex-direction: row;
+    gap: 1rem;
+    top: 10rem;
+    left: 2rem;
+  }
+  @media only screen and (max-width: 719px) {
+    position: relative;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: center;
+    top: 5rem;
+
+    left: -1rem;
+  }
+}
+.columnTwo p {
+  color: var(--color-white);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+span:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+.nextBt {
+  color: var(--color-white);
+  margin-left: 3rem;
+  @media only screen and (max-width: 719px) {
+    font-size: 0.1rem;
+  }
+}
+.copyright {
+  text-align: right;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8.5rem;
+  @media only screen and (max-width: 719px) {
+    margin: 4rem auto;
+    font-size: 1.2rem;
+  }
+}
+
+.columnThree {
+  margin-left: 40rem;
+  @media only screen and (max-width: 1244px) {
+    margin-left: 20rem;
+  }
+  @media only screen and (max-width: 1050px) {
+    margin-left: 15rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    margin-left: 20rem;
+  }
+  @media only screen and (max-width: 830px) {
+    margin-left: 10rem;
+  }
+  @media only screen and (max-width: 719px) {
+    margin: 10rem auto;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}

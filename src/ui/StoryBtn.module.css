@@ -1,0 +1,17 @@
+.storyBtn {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  justify-content: space-between;
+  width: 100%;
+}
+.storyBtnP {
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}

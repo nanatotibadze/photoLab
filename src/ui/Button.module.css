@@ -1,0 +1,23 @@
+button {
+  cursor: pointer;
+  text-align: center;
+}
+.buttonOne {
+  background-color: var(--color-black);
+  width: 15.8rem;
+  height: 4rem;
+  flex-shrink: 0;
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.2rem;
+}
+.buttonOne:hover {
+  background-color: var(--color-gray);
+  outline: none;
+  border: none;
+  color: var(--color-black);
+}

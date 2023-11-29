@@ -1,0 +1,101 @@
+.table h2 {
+  text-align: center;
+}
+
+table {
+  margin: 4rem auto;
+  color: #000;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+th {
+  padding: 2.3rem;
+}
+tr {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+td {
+  padding: 2.3rem;
+}
+
+.icon {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table {
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.tableMobile {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  display: none;
+  @media only screen and (max-width: 600px) {
+    display: flex;
+  }
+}
+.tableItem p {
+  color: #000;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.description {
+  display: flex;
+  gap: 7rem;
+  justify-content: flex-start;
+}
+
+.description p {
+  display: block;
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.667px;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+
+  opacity: 1;
+  margin-top: 1rem;
+}
+.tableItem {
+  border-bottom: 2px solid #dfdfdf;
+  /* width: 30rem; */
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-start;
+}
+
+.tableMobile h5 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
