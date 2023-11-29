@@ -1,6 +1,6 @@
 # Frontend Mentor - Photosnap Website solution
 
-This is a solution to the [Photosnap Website challenge on Frontend Mentor](https://candid-brigadeiros-34dcc8.netlify.app/)](https://www.frontendmentor.io/challenges/photosnap-multipage-website-nMDSrNmNW).
+This is a solution to the [Photosnap Website challenge on Frontend Mentor]([https://candid-brigadeiros-34dcc8.netlify.app/](https://photolaboratory.netlify.app/))]
 
 ## Overview
 
