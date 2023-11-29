@@ -10,7 +10,7 @@ Users should be able to:
 - See hover states for all interactive elements throughout the site
 
 ### Links
-- Live Site URL: [Add live site URL here](https://photolaboratory.netlify.app/)
+- Live Site URL: [photolab](https://photolaboratory.netlify.app/)
 ## My process
 
 ### Built with
