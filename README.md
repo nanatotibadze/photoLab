@@ -1,7 +1,6 @@
 # Frontend Mentor - Photosnap Website solution
 
-This is a solution to the [Photosnap Website challenge on Frontend Mentor]([https://candid-brigadeiros-34dcc8.netlify.app/](https://photolaboratory.netlify.app/))]
-
+This is a solution to the [Photosnap Website challenge on Frontend Mentor]
 ## Overview
 
 ### The challenge
@@ -13,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [[](https://your-live-site-url.com](https://photolaboratory.netlify.app/))
 
 ## My process
 
