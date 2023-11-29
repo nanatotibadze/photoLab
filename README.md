@@ -1,6 +1,5 @@
 # Frontend Mentor - Photosnap Website solution
-
-This is a solution to the [Photosnap Website challenge on Frontend Mentor]
+This is a solution to the [Photosnap Website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/photosnap-multipage-website-nMDSrNmNW).
 ## Overview
 
 ### The challenge
@@ -11,9 +10,7 @@ Users should be able to:
 - See hover states for all interactive elements throughout the site
 
 ### Links
-
-- Live Site URL: [https://photolaboratory.netlify.app/]([https://your-live-site-url.com](https://photolaboratory.netlify.app/)](https://photolaboratory.netlify.app/))
-
+- Live Site URL: [Add live site URL here](https://photolaboratory.netlify.app/)
 ## My process
 
 ### Built with
