@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [[https://photolaboratory.netlify.app/](https://your-live-site-url.com](https://photolaboratory.netlify.app/))
+- Live Site URL: [https://photolaboratory.netlify.app/]([https://your-live-site-url.com](https://photolaboratory.netlify.app/)](https://photolaboratory.netlify.app/))
 
 ## My process
 
